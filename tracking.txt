@@ -1,1 +1,1 @@
-https://github.com/un4ckn0wl3z/javascript-dsa/blob/main/01-basic-challenges-1/07-reverse-string/readme.md
+https://github.com/un4ckn0wl3z/javascript-dsa/blob/main/01-basic-challenges-1/08-palindrome/readme.md
