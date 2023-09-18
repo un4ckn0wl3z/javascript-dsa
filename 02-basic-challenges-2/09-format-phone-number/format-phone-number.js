@@ -18,8 +18,7 @@ function formatPhoneNumber2(nums) {
     let j=0;
     for (let index = 0; index < format.length; index++) {
         if (format[index] === 'x') {
-            format[index] = `${nums[j]}`
-            j++
+            format[index] = `${nums[j++]}`
         }
     }
 
