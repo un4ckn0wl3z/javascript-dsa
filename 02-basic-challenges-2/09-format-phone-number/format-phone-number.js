@@ -26,4 +26,13 @@ function formatPhoneNumber2(nums) {
 
 }
 
-module.exports = formatPhoneNumber2;
+
+function formatPhoneNumber3(nums) {
+    const areaCode = nums.slice(0, 3).join('')
+    const prefix = nums.slice(3, 6).join('')
+    const lineNumber = nums.slice(6).join('')
+    return `(${areaCode}) ${prefix}-${lineNumber}`;
+
+}
+
+module.exports = formatPhoneNumber3;
