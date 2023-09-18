@@ -5,10 +5,13 @@ function findMissingNumber(numbers) {
 
     console.log("expectedSum", expectedSum)
 
-    let actualSum = 0
-    for (let index = 0; index < numbers.length; index++) {
-        actualSum += numbers[index];
-    }
+    // let actualSum = 0
+    // for (let index = 0; index < numbers.length; index++) {
+    //     actualSum += numbers[index];
+    // }
+
+    const actualSum = numbers.reduce((sum, num) => sum + num, 0);
+
 
     console.log("actualSum", actualSum)
 
