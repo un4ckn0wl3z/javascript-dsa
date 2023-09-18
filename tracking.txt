@@ -1,1 +1,1 @@
-https://github.com/un4ckn0wl3z/javascript-dsa/blob/main/02-basic-challenges-2/02-array-intersection/readme.md
+https://github.com/un4ckn0wl3z/javascript-dsa/blob/main/02-basic-challenges-2/07-first-non-repeating/readme.md
