@@ -22,4 +22,14 @@ function generateHashtag2(str) {
 
 }
 
-module.exports = generateHashtag2;
+
+
+function generateHashtag3(str) {
+    
+    if (!str.length || str.length > 140) return false
+    const words = str.trim().split(' ').filter(word => word !== '')
+    return words.reduce((tag, word) => tag + word.charAt(0).toUpperCase() + word.substring(1), '#')
+
+}
+
+module.exports = generateHashtag3;
