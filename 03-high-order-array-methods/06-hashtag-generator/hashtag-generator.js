@@ -1,3 +1,25 @@
-function generateHashtag() {}
+function generateHashtag(str) {
+    
+    if (!str.length || str.length > 140) return false
+    const words = str.trim().split(' ').filter(word => word !== '')
+    const toUpperCase = words.map(word => {
+        const splitter = word.split('')
+        splitter[0] = splitter[0].toUpperCase()
+        return splitter.join('')
+    })
 
-module.exports = generateHashtag;
+    return "#" + toUpperCase.join('')
+
+}
+
+
+function generateHashtag2(str) {
+    
+    if (!str.length || str.length > 140) return false
+    const words = str.trim().split(' ').filter(word => word !== '')
+    const toUpperCase = words.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    return "#" + toUpperCase.join('')
+
+}
+
+module.exports = generateHashtag2;
