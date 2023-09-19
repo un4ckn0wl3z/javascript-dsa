@@ -1,1 +1,1 @@
-https://github.com/un4ckn0wl3z/javascript-dsa/blob/main/03-high-order-array-methods/01-simple-examples/readme.md
+https://github.com/un4ckn0wl3z/javascript-dsa/blob/main/03-high-order-array-methods/08-analyze-car-milage/readme.md
