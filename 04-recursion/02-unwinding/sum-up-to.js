@@ -1,14 +1,12 @@
 function sumUpTo(n) {
-    if(n === 1){
-        console.log(`sumUpTo(${n}) return 1`)
-        return 1
-    }
+  // Base case - when n is 1, we return 1
+  if (n === 1) {
+    return 1;
+  }
 
-    console.log(`sumUpTo(${n}) calls sumUpTo(${n - 1}) + ${n}`)
-    const result = n + sumUpTo(n - 1)
-    console.log(`sumUpTo(${n}) return ${result}`)
-    return result
-
+  // Recursive case - when n is greater than 1, we return the sum of n and sumUpTo(n - 1)
+  return n + sumUpTo(n - 1);
 }
+
 
 module.exports = sumUpTo;
