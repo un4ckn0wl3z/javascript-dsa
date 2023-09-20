@@ -17,11 +17,11 @@ module.exports = reverseString;
 
 /**
  * 
- * reverseString(str.substring(ello))
- * reverseString(str.substring(llo))
- * reverseString(str.substring(lo))
- * reverseString(str.substring(o))
- * reverseString(str.substring(''))
+ * reverseString(str.substring(ello)) + 'h'
+ * reverseString(str.substring(llo)) + 'e'
+ * reverseString(str.substring(lo)) + 'l'
+ * reverseString(str.substring(o)) + 'l'
+ * reverseString(str.substring('')) + 'o'
  * 
  * unwind
  * ''+'o'+'l'+'l'+'e'+'h'
