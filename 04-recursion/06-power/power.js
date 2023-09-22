@@ -23,9 +23,9 @@ module.exports = power;
  * unwinding stack (skip base case)
  * *** <> is previous unwinding value
  * 
- * power(2,1) = 2 * power(2, 0) --> 2 * 1 = 2
- * power(2,2) = 2 * power(2, 1) --> 2 * 2 = 4
- * power(2,3) = 2 * power(2, 2) --> 2 * 4 = 8
- * power(2,4) = 2 * power(2, 3) --> 2 * 8 = 16
+ * power(2,1) = 2 * power(2, 0) --> 2 * 1 = return 2
+ * power(2,2) = 2 * power(2, 1) --> 2 * 2 = return 4
+ * power(2,3) = 2 * power(2, 2) --> 2 * 4 = return 8
+ * power(2,4) = 2 * power(2, 3) --> 2 * 8 = return 16
  *
  */
