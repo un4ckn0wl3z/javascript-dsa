@@ -74,3 +74,4 @@ function findSum(arr) {
 
   return sum;
 }
+
