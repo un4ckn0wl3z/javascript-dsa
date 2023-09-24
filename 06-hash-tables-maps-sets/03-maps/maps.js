@@ -37,3 +37,6 @@ for (const [key, value] of nameMap) {
 
  // get all vals
  console.log(nameMap.values())
+
+ // clear map
+ nameMap.clear()
