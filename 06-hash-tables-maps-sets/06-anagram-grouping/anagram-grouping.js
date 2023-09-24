@@ -14,7 +14,7 @@ function anagramGrouping(arr) {
 
     }
 
-    return result.values()
+    return Array.from(result.values())
     
 }
 
