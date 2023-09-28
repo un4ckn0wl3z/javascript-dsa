@@ -9,4 +9,13 @@ list.prepend(99)
 
 list.insertAt(1, 99.5)
 
+// list.printAll()
+
+console.log(list.get(3))
+
+list.remove(2)
 list.printAll()
+
+console.log(list.contains(200))
+console.log(list.contains(999))
+
