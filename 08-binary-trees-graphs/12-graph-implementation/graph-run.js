@@ -15,3 +15,10 @@ g.addEdge('Dallas', 'Aspen');
 g.addEdge('Aspen', 'Tokyo');
 
 g.printAdjacencyList()
+console.log("*".repeat(50))
+g.removeEdge('Dallas', 'Aspen')
+
+g.printAdjacencyList()
+console.log("*".repeat(50))
+g.removeVertex('Aspen')
+g.printAdjacencyList()
