@@ -1,5 +1,14 @@
 const Stack = require('./stack');
 
+// Example Graph
+// A --- B
+// |     |
+// |     |
+// C --- D
+// |     |
+// |     |
+// E --- F
+
 function depthFirstTraversal(graph, startingVertex) {
     if (!graph.adjacencyList[startingVertex]) return []
 
