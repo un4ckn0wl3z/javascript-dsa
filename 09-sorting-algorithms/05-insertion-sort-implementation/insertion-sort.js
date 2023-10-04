@@ -51,14 +51,14 @@ function insertionSort(array) {
             array[j + 1] = array[j] | array[2] = 4
             j--
         }
-        now: [3, 4, 4, 10, 12, 1, 5, 6]
+        now: [3, x, 4, 10, 12, 1, 5, 6]
 
                0 >= 0           3 > 2
         while (j >= 0 && array[j] > currentElement) {
             array[j + 1] = array[j] | array[1] = 3
             j--
         }
-        now: [3, 3, 4, 10, 12, 1, 5, 6]
+        now: [x, 3, 4, 10, 12, 1, 5, 6]
 
               -1 + 1
         array[j + 1]  = currentElement | array[0] = 2
