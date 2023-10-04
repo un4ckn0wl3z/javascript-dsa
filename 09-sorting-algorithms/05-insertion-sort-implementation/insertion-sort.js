@@ -158,7 +158,6 @@ function insertionSort(array) {
 
 
 
-
                1 >= 0           3 > 1
         while (j >= 0 && array[j] > currentElement) {
             array[j + 1] = array[j] | array[2] = 3
