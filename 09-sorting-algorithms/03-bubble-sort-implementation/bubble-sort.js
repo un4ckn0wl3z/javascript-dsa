@@ -5,6 +5,7 @@ function bubbleSort(array) {
 
     let swapped = false;
 
+    // swap until all element is sort. then swapped = true in the last loop and exit from loop 
     while(!swapped) {
         swapped = true
         for (let index = 0; index < array.length; index++) {
@@ -20,6 +21,8 @@ function bubbleSort(array) {
 
     return array
 }
+
+
 
 function bubbleSort2(array) {
     for (let i = 0; i < array.length; i++) {
