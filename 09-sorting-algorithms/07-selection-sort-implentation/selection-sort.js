@@ -13,7 +13,7 @@ function selectionSort(array) {
             [array[i], array[minIndex]] = [array[minIndex], array[i]]
         }
 
-        
+
         // step 0: [1, 3, 2, 10, 12, 4, 5, 6]; -> swap 4,1
         // step 1: [1, 2, 3, 10, 12, 4, 5, 6]; -> swap 2,3
         // step 2: [1, 2, 3, 10, 12, 4, 5, 6]; -> no swap
@@ -27,7 +27,7 @@ function selectionSort(array) {
         // --------------------------------------------------
         // step 4: [1, 2, 3, 4, 5, 10, 12, 6]; -> swap 5, 12
         // step 5: [1, 2, 3, 4, 5, 6, 12, 10]; -> swap 6, 10
-        // step 5: [1, 2, 3, 4, 5, 6, 10, 12]; -> swap 10, 12
+        // step 6: [1, 2, 3, 4, 5, 6, 10, 12]; -> swap 10, 12
  
 
     }
