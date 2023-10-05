@@ -1,9 +1,26 @@
+function generateRandomUniqueArray(length) {
+    if (length <= 0) {
+      return [];
+    }
+  
+    const uniqueArray = [];
+    
+    while (uniqueArray.length < length) {
+      const randomNumber = Math.floor(Math.random() * 10000); // You can adjust the range as needed
+      if (!uniqueArray.includes(randomNumber)) {
+        uniqueArray.push(randomNumber);
+      }
+    }
+  
+    return uniqueArray;
+  }
+
 const selectionSort = require('./selection-sort');
 
-const array = [4, 3, 2, 10, 12, 1, 5, 6];
-
+const array = generateRandomUniqueArray(10000);
+console.time('selectionSort')
 const result = selectionSort(array);
-
+console.timeEnd('selectionSort')
 console.log(result);
 
 
